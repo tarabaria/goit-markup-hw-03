@@ -201,12 +201,28 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-color);
   text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
 
 .work-photo {
   background-color: var(--white-color);
+  width: calc((100% - 48px) / 3);
 }
 
+.work {
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.work > .container {
+  display: flex;
+}
+.work-list {
+  display: flex;
+  gap: 24px;
+}
 .team-container {
   background-color: var(--white-color);
 }
