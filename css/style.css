@@ -275,6 +275,9 @@ img {
   letter-spacing: 0.04em;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .filtr-btn:hover,
 .filtr-btn:focus {
@@ -350,6 +353,7 @@ img {
 .hidden-list {
   display: flex;
   margin-bottom: 72px;
+  gap: 24px;
 }
 .filtr {
   display: flex;
