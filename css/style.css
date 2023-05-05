@@ -141,7 +141,6 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-color);
-  background-color: var(--second-color);
   text-align: center;
   max-width: 496px;
   margin-right: auto;
@@ -185,6 +184,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  margin-bottom: 8px;
 }
 
 .features-description {
@@ -207,9 +207,6 @@ img {
   background-color: var(--white-color);
 }
 
-.team {
-  background-color: var(--light-color);
-}
 .team-container {
   background-color: var(--white-color);
 }
@@ -294,6 +291,23 @@ img {
   background-color: var(--second-color);
 }
 
-.page-footer > .container {
+.page-footer {
   background-color: var(--second-color);
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.features {
+  margin: 120px 156px;
+  display: flex;
+}
+
+.features > .container {
+  display: flex;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
 }
