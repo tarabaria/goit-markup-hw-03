@@ -57,6 +57,8 @@ img {
 .page-header {
   display: flex;
   align-self: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
 }
 .navigation-header {
   display: flex;
