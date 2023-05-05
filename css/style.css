@@ -236,6 +236,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-color);
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-name {
@@ -259,6 +260,10 @@ img {
   background-color: var(--white-color);
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .filtr-btn {
   color: var(--main-blue-color);
   background-color: var(--light-color);
@@ -314,6 +319,7 @@ img {
 
 .team {
   background-color: var(--light-color);
+  padding: 120px 0;
 }
 
 .features {
