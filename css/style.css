@@ -137,6 +137,9 @@ img {
   background-color: var(--second-color);
   text-align: center;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .hero {
@@ -160,6 +163,8 @@ img {
   border: none;
   height: 56px;
   min-width: 169px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-btn:hover,
