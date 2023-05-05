@@ -41,6 +41,19 @@ img {
   display: block;
 }
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .page-header {
   display: flex;
   align-self: center;
@@ -48,14 +61,17 @@ img {
 .navigation-header {
   display: flex;
   align-self: center;
+  column-gap: 76px;
 }
 
 .navigation {
   display: flex;
+  column-gap: 40px;
 }
 
 .contact {
   display: flex;
+  column-gap: 40px;
 }
 
 .logo {
@@ -102,7 +118,7 @@ img {
 }
 
 .contact-information {
-  display: block;
+  display: flex;
   font-style: normal;
 }
 
