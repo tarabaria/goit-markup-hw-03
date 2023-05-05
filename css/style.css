@@ -136,10 +136,13 @@ img {
   color: var(--white-color);
   background-color: var(--second-color);
   text-align: center;
-  padding: 188px 0;
   padding-left: auto;
   padding-right: auto;
   max-width: 496px;
+}
+
+.hero {
+  padding: 188px 0;
 }
 
 .hero-btn {
