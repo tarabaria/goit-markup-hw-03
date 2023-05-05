@@ -4,7 +4,7 @@
   --light-color: #f4f4fd;
   --accent-color: #404bbf;
   --white-color: #ffffff;
-  --main-color: 'Roboto', sans-serif;
+  --main-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
 }
 
@@ -121,7 +121,7 @@ img {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--main-font);
 }
 
 .email-tel:hover,
