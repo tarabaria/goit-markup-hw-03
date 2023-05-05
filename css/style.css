@@ -346,3 +346,10 @@ img {
 .filtr-list {
   padding: 96px 0 120px;
 }
+
+.hidden-list {
+  display: flex;
+}
+.filtr {
+  display: flex;
+}
