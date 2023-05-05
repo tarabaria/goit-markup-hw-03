@@ -211,6 +211,7 @@ img {
 
 .work-photo {
   background-color: var(--white-color);
+  width: calc((100% - 48px) / 3);
 }
 
 .work {
@@ -220,7 +221,6 @@ img {
 .work-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 
 .team-container {
