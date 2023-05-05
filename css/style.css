@@ -370,3 +370,6 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+.filtr-project {
+  width: calc((100% - 48px) / 3);
+}
