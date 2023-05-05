@@ -311,6 +311,6 @@ img {
   display: flex;
   gap: 24px;
 }
-.features-list:first-child {
+.features-list-first {
   width: calc((100% - 72px) / 4);
 }
