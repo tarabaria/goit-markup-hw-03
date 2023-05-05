@@ -272,6 +272,7 @@ img {
 
 .page-footer {
   background-color: var(--second-color);
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -282,5 +283,9 @@ img {
 }
 
 .page-main > .hero {
+  background-color: var(--second-color);
+}
+
+.page-footer > .container {
   background-color: var(--second-color);
 }
