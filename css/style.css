@@ -22,6 +22,42 @@ body {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.page-header {
+  display: flex;
+  align-self: center;
+}
+.navigation-header {
+  display: flex;
+  align-self: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
 .logo {
   font-family: var(--second-font);
   color: var(--main-blue-color);
@@ -66,6 +102,7 @@ body {
 }
 
 .contact-information {
+  display: block;
   font-style: normal;
 }
 
