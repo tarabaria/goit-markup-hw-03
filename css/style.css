@@ -213,7 +213,9 @@ img {
   background-color: var(--white-color);
   width: calc((100% - 48px) / 3);
 }
-
+.section-photo {
+  width: calc((100% - 48px) / 3);
+}
 .work {
   padding-bottom: 120px;
 }
