@@ -127,10 +127,6 @@ img {
   font-style: normal;
 }
 
-.hero {
-  background-color: var(--second-color);
-}
-
 .hero-tittle {
   font-style: normal;
   font-weight: 700;
@@ -140,6 +136,10 @@ img {
   color: var(--white-color);
   background-color: var(--second-color);
   text-align: center;
+  padding: 188px 0;
+  padding-left: auto;
+  padding-right: auto;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -155,6 +155,7 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: block;
 }
 
 .hero-btn:hover,
@@ -269,4 +270,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
+}
+.page-main {
+  background-color: var(--second-color);
 }
