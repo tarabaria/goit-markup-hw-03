@@ -275,6 +275,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--light-color);
 }
-.page-main {
+
+.page-main > .hero {
   background-color: var(--second-color);
 }
