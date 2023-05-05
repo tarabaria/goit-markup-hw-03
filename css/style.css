@@ -283,6 +283,7 @@ img {
 .filtr-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  border: 1px solid transparent;
 }
 
 .project-name {
