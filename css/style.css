@@ -95,7 +95,10 @@ img {
 .logo-second-part-dark {
   color: var(--second-color);
 }
-
+.contact {
+  display: flex;
+  gap: 40px;
+}
 .logo-second-part-light {
   color: var(--light-color);
 }
@@ -379,9 +382,3 @@ img {
   display: inline-block;
 }
 /* =======FOOTER======= */
-
-/* 
-.contact {
-  display: flex;
-  gap: 40px;
-} */
